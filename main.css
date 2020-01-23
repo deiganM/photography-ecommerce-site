@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  
+}
+
+.main-nav {
+  border: 1px black solid;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) .5fr;
+  align-items: center;  /* centered the content (vertical) */
+  justify-items: center; /* centered the content (horizontal) */
+}
+
+.main-nav h1 {
+  font-size: 1.5rem;
+  
+}
+
+#mySearch {
+  width: 8rem;
+  border-radius: 5px;
+  border: 1px grey solid;
+  /* margin: auto; */
+}
+
+.ham-menu {
+  height: 2rem;
+}
