@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/* Photo by Mitchell Luo on Unsplash */
+
+/* was working on max-width, min-width of buttons */
+
 body {
   font-family: 'Roboto', sans-serif;
-}
-
-header {
-  
 }
 
 .main-nav {
@@ -18,16 +18,61 @@ header {
 
 .main-nav h1 {
   font-size: 1.5rem;
-  
 }
 
 #mySearch {
   width: 8rem;
   border-radius: 5px;
-  border: 1px grey solid;
-  /* margin: auto; */
+  border: none;
+  background: lightgrey;
+  text-align: center;
 }
 
 .ham-menu {
   height: 2rem;
+}
+
+.secondary-nav {
+  border: 1px black solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;  /* centered the content (vertical) */
+  justify-items: center; /* centered the content (horizontal) */
+  padding: .4rem 0;
+}
+
+.hero-section {
+  background-image: url('35mm-tR-hmR1ZGmE-unsplash.jpg');
+  height: 100vh;
+  width: 100vw;
+  background-position: left;
+  background-size: cover;
+}
+
+.hero-section p {
+  
+  font-size: 2rem;
+  float: right;
+  color: whitesmoke;
+  text-align: right;
+  padding: 0 2rem 0 1rem;
+}
+
+.call-to-action {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  justify-items: center;
+}
+
+.call-to-action p {
+ text-align: center;
+}
+
+button {
+  height: 7vh;
+  min-width: 75vw;
+  max-width: 100px;
+  margin: .5rem;
+  border-radius: 100px;
 }
